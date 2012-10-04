@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HOLIDAYLIST SYSTEM "holiday.dtd" >
+<HOLIDAYLIST>
+	<STATE NAME="NSW">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<MONTH>January</MONTH>
+			<DAY>1</DAY>
+			<WEEKDAY>Sunday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Additional Day</TITLE>
+			<MONTH>January</MONTH>
+			<DAY>2</DAY>
+			<WEEKDAY>Monday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Australia Day </TITLE>
+			<MONTH>January</MONTH>
+			<DAY>26</DAY>
+			<WEEKDAY>Thursday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<MONTH>April</MONTH>
+			<DAY>6</DAY>
+			<WEEKDAY>Friday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Saturday</TITLE>
+			<MONTH>April</MONTH>
+			<DAY>7</DAY>
+			<WEEKDAY>Saturday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Sunday</TITLE>
+			<MONTH>April</MONTH>
+			<DAY>8</DAY>
+			<WEEKDAY>Sunday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<MONTH>April</MONTH>
+			<DAY>9</DAY>
+			<WEEKDAY>Monday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<MONTH>April</MONTH>
+			<DAY>25</DAY>
+			<WEEKDAY>Wednesday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Queen's Birthday </TITLE>
+			<MONTH>June</MONTH>
+			<DAY>11</DAY>
+			<WEEKDAY>Monday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Bank Holiday</TITLE>
+			<MONTH>August</MONTH>
+			<DAY>6</DAY>
+			<WEEKDAY>Monday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Labour Day </TITLE>
+			<MONTH>October</MONTH>
+			<DAY>1</DAY>
+			<WEEKDAY>Monday</WEEKDAY>
+			<YEAR>2012</YEAR>
+		</HOLIDAY>
+	</STATE>
+</HOLIDAYLIST>
