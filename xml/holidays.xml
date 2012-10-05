@@ -324,4 +324,980 @@
 			</YEAR>
 		</HOLIDAY>
 	</STATE>
+	<STATE value="QLD">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Sunday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>2 January</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Australia Day </TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>28</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Saturday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Queen's Diamond Jubilee</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday</TITLE>
+			<YEAR value="2012">
+				<MONTH>October</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>October</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Royal Queen'sland Show</TITLE>
+			<YEAR value="2012">
+				<MONTH>August</MONTH>
+				<DAY>15</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>August</MONTH>
+				<DAY>14</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Boxing Day</TITLE>
+
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
+	<STATE value="VIC">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Sunday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Australia Day </TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>The Saturday before Easter Sunday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>June</MONTH>
+				<DAY>10</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Melbourne Cup Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>November</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>November</MONTH>
+				<DAY>5</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Boxing Day</TITLE>
+
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
+	<STATE value="SA">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Sunday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Australia Day </TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>28</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>The Saturday after Easter Sunday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Anzac Day holiday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday and Volunteer's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>June</MONTH>
+				<DAY>10</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Labour Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>October</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>October</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Christmas Eve</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>24</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>24</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Proclamation Day holiday</TITLE>
+
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>New Year's Eve</TITLE>
+
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>31</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>31</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
+	<STATE value="WA">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Sunday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Australia Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>28</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Labour Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>March</MONTH>
+				<DAY>5</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>4</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Western Australia Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>4</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>June</MONTH>
+				<DAY>3</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday</TITLE>
+			<YEAR value="2012">
+				<MONTH>October</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>September</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Boxing Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
+	<STATE value="TAS">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Australia Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>28</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Royal Hobart Regatta</TITLE>
+			<YEAR value="2012">
+				<MONTH>February</MONTH>
+				<DAY>13</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>February</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		
+		
+				<HOLIDAY>
+			<TITLE>Eight Hours Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>March</MONTH>
+				<DAY>12</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		
+				<HOLIDAY>
+			<TITLE>Easter Tuesday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>10</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>June</MONTH>
+				<DAY>10</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Recreation Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>November</MONTH>
+				<DAY>5</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>Monday</MONTH>
+				<DAY>4</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Boxing Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
+
+
+	<STATE value="ACT">
+		<HOLIDAY>
+			<TITLE>New Year's Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Sunday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>New Year's Day Public Holiday</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>2</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Australia Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>January</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>January</MONTH>
+				<DAY>28</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Canberra</TITLE>
+			<YEAR value="2012">
+				<MONTH>March</MONTH>
+				<DAY>12</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		
+		
+
+
+		<HOLIDAY>
+			<TITLE>Good Friday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>6</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>29</DAY>
+				<WEEKDAY>Friday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Easter Saturday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>March</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Saturday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Easter Monday</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>9</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		
+
+		
+		<HOLIDAY>
+			<TITLE>Anzac Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>April</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+
+
+		<HOLIDAY>
+			<TITLE>Queen's Birthday</TITLE>
+			<YEAR value="2012">
+				<MONTH>June</MONTH>
+				<DAY>11</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>June</MONTH>
+				<DAY>10</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Labour Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>October</MONTH>
+				<DAY>1</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>October</MONTH>
+				<DAY>7</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+
+		<HOLIDAY>
+			<TITLE>Family&amp;Community  Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>October</MONTH>
+				<DAY>8</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>September</MONTH>
+				<DAY>30</DAY>
+				<WEEKDAY>Monday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+
+		<HOLIDAY>
+			<TITLE>Christmas Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Tuesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>25</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+		<HOLIDAY>
+			<TITLE>Boxing Day</TITLE>
+			<YEAR value="2012">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Wednesday</WEEKDAY>
+			</YEAR>
+			<YEAR value="2013">
+				<MONTH>December</MONTH>
+				<DAY>26</DAY>
+				<WEEKDAY>Thursday</WEEKDAY>
+			</YEAR>
+		</HOLIDAY>
+	</STATE>
 </HOLIDAYLIST>
