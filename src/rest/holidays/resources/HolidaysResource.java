@@ -23,12 +23,12 @@ public class HolidaysResource {
 
     @GET
     @Path("{state}")
-    @Produces({MediaType.APPLICATION_XML,MediaType.APPLICATION_JSON})
+    @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
     public List<Holiday> getStateHolidays(@PathParam("state") String state) {
-	List<Holiday> holidays = null;
+	List<Holiday> holidays;
 	HolidayDao holidayDao = new HolidayDao();
 	holidays = holidayDao.getHolidayByState(state);
-	
+
 	return holidays;
 
     }

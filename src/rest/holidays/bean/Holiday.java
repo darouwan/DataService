@@ -1,44 +1,32 @@
 package rest.holidays.bean;
 
+import java.util.ArrayList;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Holiday {
-    private String title;
-    private String day;
-    private String month;
-    private String year;
-    private String weekday;
+    private String title = "";
+    private ArrayList<Date> date = new ArrayList<Date>();
+
+
+
     public String getTitle() {
-        return title;
+	return title;
     }
+
     public void setTitle(String title) {
-        this.title = title;
+	this.title = title;
     }
-    public String getDay() {
-        return day;
+
+    public ArrayList<Date> getDate() {
+        return date;
     }
-    public void setDay(String day) {
-        this.day = day;
+
+    public void setDate(ArrayList<Date> date) {
+        this.date = date;
     }
-    public String getMonth() {
-        return month;
-    }
-    public void setMonth(String month) {
-        this.month = month;
-    }
-    public String getYear() {
-        return year;
-    }
-    public void setYear(String year) {
-        this.year = year;
-    }
-    public String getWeekday() {
-        return weekday;
-    }
-    public void setWeekday(String weekday) {
-        this.weekday = weekday;
-    }
+
 
 
 }

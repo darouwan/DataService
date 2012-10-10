@@ -18,12 +18,12 @@
 
 		<xsl:for-each select="YEAR">
 			<xsl:variable name="xyear" select="@value"></xsl:variable>
-			<xsl:if test="$xyear=$year">
-				<xsl:if test="$xmonth=$month">
-					<xsl:if test="$xday=$day">
-
+			<xsl:if test="$xyear='2012'">
+				<xsl:if test="$xmonth='January'">
+					<xsl:if test="$xday='1'">
+						<a>
 						<xsl:value-of select="../TITLE"></xsl:value-of>
-
+						</a>
 					</xsl:if>
 
 				</xsl:if>
