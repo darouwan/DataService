@@ -28,7 +28,8 @@ public class HolidaysResource {
 	List<Holiday> holidays = null;
 	HolidayDao holidayDao = new HolidayDao();
 	holidays = holidayDao.getHolidayByState(state);
-	return null;
+	
+	return holidays;
 
     }
 

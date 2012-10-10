@@ -8,49 +8,37 @@ public class Holiday {
     private String day;
     private String month;
     private String year;
-    private Weekday weekday;
-
-    enum Weekday {
-	Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday
-    }
-
+    private String weekday;
     public String getTitle() {
-	return title;
+        return title;
     }
-
     public void setTitle(String title) {
-	this.title = title;
+        this.title = title;
     }
-
     public String getDay() {
-	return day;
+        return day;
     }
-
     public void setDay(String day) {
-	this.day = day;
+        this.day = day;
     }
-
     public String getMonth() {
-	return month;
+        return month;
     }
-
     public void setMonth(String month) {
-	this.month = month;
+        this.month = month;
     }
-
     public String getYear() {
-	return year;
+        return year;
     }
-
     public void setYear(String year) {
-	this.year = year;
+        this.year = year;
+    }
+    public String getWeekday() {
+        return weekday;
+    }
+    public void setWeekday(String weekday) {
+        this.weekday = weekday;
     }
 
-    public Weekday getWeekday() {
-	return weekday;
-    }
 
-    public void setWeekday(Weekday weekday) {
-	this.weekday = weekday;
-    };
 }

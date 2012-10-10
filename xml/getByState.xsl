@@ -13,7 +13,7 @@
 		</HOLIDAYLIST>
 	</xsl:template>
 
-	<xsl:template match="HOLIDAY">
+	<xsl:template match="holiday">
 		<HOLIDAY>
 			<TITLE>
 				<xsl:value-of select="TITLE" />
