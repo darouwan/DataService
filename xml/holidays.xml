@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE HOLIDAYLIST SYSTEM "holiday.dtd" >
+<!DOCTYPE HOLIDAYLIST SYSTEM "D:/workspace/DataService/xml/holiday.dtd" >
 <HOLIDAYLIST>
 	<STATE value="NSW">
 		<HOLIDAY>

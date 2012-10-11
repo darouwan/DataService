@@ -18,16 +18,16 @@ import rest.holidays.bean.Date;
 import rest.holidays.bean.Holiday;
 
 public class HolidayDao {
-
+    String basePath="D:/workspace/DataService/";
     public List<Holiday> getHolidayByState(String state) {
 
 	XQDataSource xqds = new SaxonXQDataSource();
 	List<Holiday> holidays = new ArrayList<Holiday>();
-
+	
 	XQConnection con;
 	try {
 	    con = xqds.getConnection();
-	    String queryString = "for $s in doc(\"D:/workspace/DataService/xml/holidays.xml\")/HOLIDAYLIST/STATE[@value=\""
+	    String queryString = "for $s in doc(\""+basePath+"xml/holidays.xml\")/HOLIDAYLIST/STATE[@value=\""
 		    + state + "\"]/HOLIDAY return $s";
 	    XQPreparedExpression exp = con.prepareExpression(queryString);
 	    XQResultSequence result = exp.executeQuery();
@@ -82,7 +82,7 @@ public class HolidayDao {
 	XQDataSource xqds = new SaxonXQDataSource();
 	String text = null;
 	XQConnection con;
-	String queryString = "for $s in doc('D:/workspace/DataService/xml/holidays.xml')/HOLIDAYLIST/STATE[@value='"
+	String queryString = "for $s in doc('"+basePath+"xml/holidays.xml')/HOLIDAYLIST/STATE[@value='"
 		+ state
 		+ "']/HOLIDAY where  $s/YEAR/MONTH='"
 		+ month

@@ -1,5 +1,10 @@
 package rest.holidays.resources;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 
 import javax.ws.rs.GET;
@@ -10,9 +15,12 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
 import javax.ws.rs.core.UriInfo;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
 
 import rest.holidays.bean.Holiday;
 import rest.holidays.dao.HolidayDao;
+import rest.holidays.util.ShowHolidays;
 
 @Path("/")
 public class HolidaysResource {
@@ -32,20 +40,50 @@ public class HolidaysResource {
 	return holidays;
 
     }
-    
-    
+
     @GET
     @Path("{state}/show")
     @Produces({ MediaType.TEXT_HTML })
-    public List<Holiday> getStateHolidaysInHTML(@PathParam("state") String state) {
-	List<Holiday> holidays;
-	HolidayDao holidayDao = new HolidayDao();
-	holidays = holidayDao.getHolidayByState(state);
-	
-	return holidays;
+    public String getStateHolidaysInHTML(@PathParam("state") String state) {
+	ShowHolidays showHolidays = new ShowHolidays();
+	    String basePath="D:/workspace/DataService/";
+	String html = "";
+	String inXML = basePath+"xml/holidays.xml";
+	String inXSL = basePath+"xml/show.xsl";
+	String outTXT = basePath+"xml/out.html";
+	try {
+	    showHolidays.transform(inXML, inXSL, outTXT, state);
+	    File file = new File( "D:/workspace/DataService/xml/out.html");
+	    BufferedReader reader = null;
+
+            reader = new BufferedReader(new FileReader(file));
+            String tempString = null;
+            int line = 1;
+            // 一次读入一行，直到读入null为文件结束
+            while ((tempString = reader.readLine()) != null) {
+                // 显示行号
+                System.out.println("line " + line + ": " + tempString);
+                html = html+tempString;
+                line++;
+            }
+            reader.close();
+	} catch (TransformerConfigurationException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	} catch (TransformerException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	} catch (FileNotFoundException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	} catch (IOException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	}
+
+	return html;
 
     }
-    
 
     @GET
     @Path("{state}/{date}")
@@ -86,7 +124,7 @@ public class HolidaysResource {
 
 	System.out.println(state + " " + day + " " + month + " " + year);
 	result = holidayDao.validateDay(state, day, month, year);
-	if(result==null){
+	if (result == null) {
 	    result = "This is not any holiday";
 	}
 	System.out.println("Result = " + result);

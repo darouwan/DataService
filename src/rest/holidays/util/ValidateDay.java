@@ -1,5 +1,7 @@
 package rest.holidays.util;
 
+import java.io.FileNotFoundException;
+
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -16,13 +18,16 @@ public class ValidateDay {
 
 	ShowHolidays st = new ShowHolidays();
 	try {
-	    st.transform(inXML, inXSL, outTXT);
+	    st.transform(inXML, inXSL, outTXT,"VIC");
 	} catch (TransformerConfigurationException e) {
 	    System.err.println("Invalid factory configuration");
 	    System.err.println(e);
 	} catch (TransformerException e) {
 	    System.err.println("Error during transformation");
 	    System.err.println(e);
+	} catch (FileNotFoundException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
 	}
     }
 

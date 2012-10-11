@@ -1,5 +1,9 @@
 package rest.holidays.util;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
 import javax.xml.transform.ErrorListener;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerConfigurationException;
@@ -17,21 +21,24 @@ public class ShowHolidays {
 
 	ShowHolidays st = new ShowHolidays();
 	try {
-	    st.transform(inXML, inXSL, outTXT);
+	    st.transform(inXML, inXSL, outTXT,"VIC");
 	} catch (TransformerConfigurationException e) {
 	    System.err.println("Invalid factory configuration");
 	    System.err.println(e);
 	} catch (TransformerException e) {
 	    System.err.println("Error during transformation");
 	    System.err.println(e);
+	} catch (FileNotFoundException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
 	}
     }
     
     
 
 
-    public void transform(String inXML, String inXSL, String outTXT)
-	    throws TransformerConfigurationException, TransformerException {
+    public void transform(String inXML, String inXSL, String outTXT,String state)
+	    throws TransformerConfigurationException, TransformerException, FileNotFoundException {
 
 	TransformerFactory factory = TransformerFactory.newInstance();
 
@@ -39,10 +46,10 @@ public class ShowHolidays {
 	Transformer transformer = factory.newTransformer(xslStream);
 	transformer.setErrorListener(new MyErrorListener());
 
-	StreamSource in = new StreamSource(inXML);
+	StreamSource in = new StreamSource(new FileInputStream( inXML));
 
-	StreamResult out = new StreamResult(outTXT);
-	transformer.setParameter("short", "VIC");
+	StreamResult out = new StreamResult(new FileOutputStream(outTXT));
+	transformer.setParameter("short", state);
 	transformer.transform(in, out);
 	System.out.println("The generated HTML file is:" + outTXT);
     }
