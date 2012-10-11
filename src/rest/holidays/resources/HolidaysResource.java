@@ -42,7 +42,7 @@ public class HolidaysResource {
     }
 
     @GET
-    @Path("{state}/show")
+    @Path("{state}/show") 
     @Produces({ MediaType.TEXT_HTML })
     public String getStateHolidaysInHTML(@PathParam("state") String state) {
 	ShowHolidays showHolidays = new ShowHolidays();
