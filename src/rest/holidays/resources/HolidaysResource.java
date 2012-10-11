@@ -20,7 +20,7 @@ import javax.xml.transform.TransformerException;
 
 import rest.holidays.bean.Holiday;
 import rest.holidays.dao.HolidayDao;
-import rest.holidays.util.ShowHolidays;
+import rest.holidays.util.ShowHolidaysXSL;
 
 @Path("/")
 public class HolidaysResource {
@@ -45,7 +45,7 @@ public class HolidaysResource {
     @Path("{state}/show")
     @Produces({ MediaType.TEXT_HTML })
     public String getStateHolidaysInHTML(@PathParam("state") String state) {
-	ShowHolidays showHolidays = new ShowHolidays();
+	ShowHolidaysXSL showHolidays = new ShowHolidaysXSL();
 	String basePath = "D:/workspace/DataService/";
 	String html = "";
 	String inXML = basePath + "xml/holidays.xml";

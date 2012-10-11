@@ -12,14 +12,14 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 
-public class ShowHolidays {
+public class ShowHolidaysXSL {
     static public void main(String[] arg) {
 
 	String inXML = "xml/holidays.xml";
 	String inXSL = "xml/show.xsl";
 	String outTXT = "xml/out.html";
 
-	ShowHolidays st = new ShowHolidays();
+	ShowHolidaysXSL st = new ShowHolidaysXSL();
 	try {
 	    st.transform(inXML, inXSL, outTXT,"VIC");
 	} catch (TransformerConfigurationException e) {
@@ -42,7 +42,7 @@ public class ShowHolidays {
 
 	TransformerFactory factory = TransformerFactory.newInstance();
 
-	StreamSource xslStream = new StreamSource(inXSL);
+	StreamSource xslStream = new StreamSource(new FileInputStream(inXSL));
 	Transformer transformer = factory.newTransformer(xslStream);
 	transformer.setErrorListener(new MyErrorListener());
 
