@@ -1,0 +1,29 @@
+This part of the assignment is to get you to use various XML technologies to implement a data service.
+
+CSE-Doodle also has a simple data service that allows the client to access public holiday data.
+
+You'd think a government Web site is the authorative source of data for this sort of information. Currently, the public holiday information exists on a government web site, but not in a format designed for programatic access.
+
+So here are your tasks:
+
+    Visit the following web page and 'collect' the public holiday information from all states and territories
+        NSW: http://www.industrialrelations.nsw.gov.au/NSW_public_holidays/Dates_for_NSW_Public_Holidays.html#NSW_Public_Holidays_20122014
+        NT: http://www.ocpe.nt.gov.au/working_in_the_ntps/legislation/public_holidays
+        QLD: http://www.justice.qld.gov.au/fair-and-safe-work/industrial-relations/public-holidays/dates
+        VIC: http://www.vic.gov.au/Victorian-Public-Holiday-Dates.html
+        SA: http://www.safework.sa.gov.au/show_page.jsp?id=2483
+        WA: http://www.commerce.wa.gov.au/LabourRelations/Content/Employers/Pay_rates_leave_and_conditions/Public_holidays_in_Western_Aus.html#Pub
+        TAS: http://www.wst.tas.gov.au/employment_info/public_holidays
+        ACT: http://www.cmd.act.gov.au/communication/holidays
+    It is OK to collect 2012 and 2013 data only. You can write some HTML parsers, but I'd expect there will be fair amount of manual work involved to get the data from all pages.
+    Design an XML schema that represents Australian public holidays
+    Create an XML document (or a set of documents) per schema to store the public holiday data you collected
+    Now you need to provide simple set of service API for your data clients. Your API should contains mixture of operations: ones that return XML (i.e., data only) as well as ones that return HTML (i.e., data + presentation).
+
+You may use the same REST framework to implement the data service. However, you need to implement the actual data access logic with XQuery and XSLT. XQuery should be used in operations that return XML. XSLT should be used in operation.
+
+As examples, your data client might expect to see something like this:
+
+    GET http://yourhost/pubholservice/nsw (this returns list of public holidays in NSW - in XML).
+    GET http://yourhost/pubholservice/nsw/show (this returns the same list rendered as HTML)
+    GET http://yourhost/pubholservice/qld/02-01-2013 (this returns yes and name of the public holiday if it the date is public holiday in QLD) 

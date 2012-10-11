@@ -35,6 +35,7 @@ public class HolidayDao {
 
 	    while (result.next()) {
 		Node node = result.getNode();
+		System.out.println(node.getNodeName());
 		NodeList nl = node.getChildNodes();
 		Holiday holiday = new Holiday();
 		for (int i = 0; i < nl.getLength(); i++) {
