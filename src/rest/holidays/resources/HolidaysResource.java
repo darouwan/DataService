@@ -61,7 +61,7 @@ public class HolidaysResource {
 
 	    while ((tempString = reader.readLine()) != null) {
 
-		html = html + tempString;
+		html = html + tempString; 
 
 	    }
 	    reader.close();
