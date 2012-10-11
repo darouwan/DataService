@@ -42,31 +42,29 @@ public class HolidaysResource {
     }
 
     @GET
-    @Path("{state}/show") 
+    @Path("{state}/show")
     @Produces({ MediaType.TEXT_HTML })
     public String getStateHolidaysInHTML(@PathParam("state") String state) {
 	ShowHolidays showHolidays = new ShowHolidays();
-	    String basePath="D:/workspace/DataService/";
+	String basePath = "D:/workspace/DataService/";
 	String html = "";
-	String inXML = basePath+"xml/holidays.xml";
-	String inXSL = basePath+"xml/show.xsl";
-	String outTXT = basePath+"xml/out.html";
+	String inXML = basePath + "xml/holidays.xml";
+	String inXSL = basePath + "xml/show.xsl";
+	String outTXT = basePath + "xml/out.html";
 	try {
 	    showHolidays.transform(inXML, inXSL, outTXT, state);
-	    File file = new File( "D:/workspace/DataService/xml/out.html");
+	    File file = new File(basePath + "xml/out.html");
 	    BufferedReader reader = null;
 
-            reader = new BufferedReader(new FileReader(file));
-            String tempString = null;
-            int line = 1;
-            // 一次读入一行，直到读入null为文件结束
-            while ((tempString = reader.readLine()) != null) {
-                // 显示行号
-                System.out.println("line " + line + ": " + tempString);
-                html = html+tempString;
-                line++;
-            }
-            reader.close();
+	    reader = new BufferedReader(new FileReader(file));
+	    String tempString = null;
+
+	    while ((tempString = reader.readLine()) != null) {
+
+		html = html + tempString;
+
+	    }
+	    reader.close();
 	} catch (TransformerConfigurationException e) {
 	    // TODO Auto-generated catch block
 	    e.printStackTrace();
