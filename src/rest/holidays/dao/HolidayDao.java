@@ -82,7 +82,7 @@ public class HolidayDao {
 	XQDataSource xqds = new SaxonXQDataSource();
 	String text = null;
 	XQConnection con;
-	String queryString = "for $s in doc('xml/holidays.xml')/HOLIDAYLIST/STATE[@value='"
+	String queryString = "for $s in doc('D:/workspace/DataService/xml/holidays.xml')/HOLIDAYLIST/STATE[@value='"
 		+ state
 		+ "']/HOLIDAY where  $s/YEAR/MONTH='"
 		+ month
